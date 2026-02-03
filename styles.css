@@ -1,10 +1,43 @@
+/* Basic CSS Layout */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
-    margin: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #0055a5;
+header, footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    font-size: 1rem;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #444;
 }
